@@ -21,7 +21,7 @@ class CampsiteInfo extends Component {
           <h4>Comments</h4>
           {comments.map((comment) => (
             <div key={comment.id}>
-              <>
+            
                 ç<p>{comment.text}</p>
                 <p>
                  {comment.author} - {" "}
@@ -31,7 +31,7 @@ class CampsiteInfo extends Component {
                   day: "2-digit",
                 }).format(new Date(Date.parse(comment.date)))}
                </p>
-              </>
+              
             </div>
           ))}
         </div>

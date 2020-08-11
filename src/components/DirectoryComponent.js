@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-​import CampsiteInfo from "./CampsiteInfoComponent";
+​import CampsiteInfo from " .src/components/CampsiteInfoComponent"; // i tried ./components/CampsiteInfoComponent but not working too. 
 ​import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 class Directory extends Component {
   constructor(props) {
